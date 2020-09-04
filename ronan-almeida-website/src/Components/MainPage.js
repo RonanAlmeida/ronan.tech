@@ -1,7 +1,7 @@
 import React from "react";
 import { Feed, Card, Header, Icon, Image, Divider } from "semantic-ui-react";
 import IconOutline from "./IconOutline";
-import GooeyReact from "./GooeyReact";
+import GooeyReact from "../OuterComponents/GooeyReact";
 function MainPage() {
   const style = {
     h1: {
@@ -33,12 +33,11 @@ function MainPage() {
       <Header
         as="h1"
         style={style.h2}
-        size="big"
         subheader="Passionate about combing impactful software and algorithmic thinking to deliver effective user solutions"
         textAlign="center"
       />
-
-      <IconOutline name="file alternate" content="Resume" href="" />
+    
+      <IconOutline name="file alternate" content="Resume" href="https://drive.google.com/file/d/1Wjk8jy3bsXGBi9BfjVe4Up_F1gmYFcGf/view" />
       <IconOutline
         name="linkedin"
         content="LinkedIn"
