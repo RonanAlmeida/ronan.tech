@@ -1,76 +1,66 @@
 import React from "react";
-import {
-  Button,
-  Container,
-  Grid,
-  Header,
-  Icon,
-  Image,
-  Item,
-  Label,
-  Menu,
-  Segment,
-  Step,
-  Popup,
-  Divider,
-} from "semantic-ui-react";
-import Goo from "gooey-react";
+import { Feed, Card, Header, Icon, Image, Divider } from "semantic-ui-react";
 import IconOutline from "./IconOutline";
-
+import GooeyReact from "./GooeyReact";
 function MainPage() {
   const style = {
     h1: {
-      marginTop: "8em",
+      fontSize: "3em",
     },
     background: {
       backgroundColor: "#FFF2",
     },
     icon: {
-      margin: "3rem",
+      margin: "1rem",
     },
-    // h2: {
-    //   margin: "4em 0em 2em",
-    // },
-    // h3: {
-    //   marginTop: "2em",
-    //   padding: "2em 0em",
-    // },
-    // last: {
-    //   marginBottom: "300px",
-    // },
+    h2: {
+      fontSize: "1.5rem",
+    },
   };
   return (
-    <div style={style.background}>
+    <div>
+      <GooeyReact style={style.h1} />
       <Header
         as="h1"
         content="Ronan Almeida"
-        subheader="Hey, Welcome to my personal website 👋"
+        subheader="Welcome to my personal website 👋"
         style={style.h1}
         textAlign="center"
         size="huge"
       />
+    <Header sub>Software Engineer</Header>
 
       <Header
-        as="h2"
+        as="h1"
+        style={style.h2}
+        size="big"
         subheader="Passionate about combing impactful software and algorithmic thinking to deliver effective user solutions"
         textAlign="center"
-
       />
 
+      <IconOutline name="file alternate" content="Resume" href="" />
+      <IconOutline
+        name="linkedin"
+        content="LinkedIn"
+        href="https://www.linkedin.com/in/ronanalmeida/"
+      />
+      <IconOutline
+        name="github"
+        content="Github"
+        href="https://github.com/RonanAlmeida"
+      />
 
-
-      <IconOutline name='file alternate' content='Resume'/>
-      <IconOutline name='linkedin' content='LinkedIn'/>
-      <IconOutline name='github' content='Github'/>
-
-    <IconOutline name='mail' content='Email'/>
+      <IconOutline
+        name="mail"
+        content="Email"
+        href="mailto: ronan.almeida@queensu.ca"
+      />
 
       <Divider horizontal>
-        <Icon name="angle double down" size="massive"></Icon>
+        <Header as="h2">
+          <Icon name="angle down" inverted color="black"></Icon>
+        </Header>
       </Divider>
-      <Header as="h4" content=" 🚧 Site Under Construction 🚧" 
-              textAlign="center"
-              />
     </div>
   );
 }

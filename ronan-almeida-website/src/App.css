@@ -2,4 +2,18 @@
   text-align: center;
 }
 
+svg * {
+  transform-origin: 20%;
+}
 
+@keyframes left {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes right {
+  100% {
+    transform: rotate(260deg);
+  }
+}
