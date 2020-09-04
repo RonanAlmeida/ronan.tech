@@ -1,7 +1,8 @@
 import React from "react";
-import MainPage from "./Components/MainPage";
-import Footer from "./Components/Footer"
+import MainPage from "./Pages/MainPage";
+import Footer from "./Components/Footer";
 import "./App.css";
+import ProjectCard from "./Components/ProjectCard";
 // import HomepageLayout from './Components/HomepageLayout';
 
 function App() {

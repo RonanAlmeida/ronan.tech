@@ -8,15 +8,20 @@ function IconOutline(props) {
   const style = {
     icon: {
       margin: "3rem",
-      color: "red",
-      background: "white",
+      backgroundColor: "#fff"
+
     },
+    iconHover: {
+      margin: "3rem",
+      backgroundColor: "#fff"
+
+    }
   };
-  
+
   return (
     <Popup
       trigger={
-        <a   target="_blank" href={props.href}  >
+        <a target="_blank" href={props.href}>
           <Header as="h5" style={style.icon} icon>
             <Icon
               inverted
