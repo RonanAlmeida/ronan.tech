@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.7005e704.chunk.css",
-    "main.js": "/static/js/main.e106b6a2.chunk.js",
-    "main.js.map": "/static/js/main.e106b6a2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.640acb5c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.640acb5c.js.map",
-    "static/css/2.5f1adba5.chunk.css": "/static/css/2.5f1adba5.chunk.css",
-    "static/js/2.6767e0bf.chunk.js": "/static/js/2.6767e0bf.chunk.js",
-    "static/js/2.6767e0bf.chunk.js.map": "/static/js/2.6767e0bf.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7d0ee6290d0c0438aa5ed1c1afc8d269.js": "/precache-manifest.7d0ee6290d0c0438aa5ed1c1afc8d269.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.5f1adba5.chunk.css.map": "/static/css/2.5f1adba5.chunk.css.map",
-    "static/css/main.7005e704.chunk.css.map": "/static/css/main.7005e704.chunk.css.map",
-    "static/js/2.6767e0bf.chunk.js.LICENSE.txt": "/static/js/2.6767e0bf.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/ronan.tech/static/css/main.7005e704.chunk.css",
+    "main.js": "/ronan.tech/static/js/main.ca1c7f4a.chunk.js",
+    "main.js.map": "/ronan.tech/static/js/main.ca1c7f4a.chunk.js.map",
+    "runtime-main.js": "/ronan.tech/static/js/runtime-main.eb90fd9e.js",
+    "runtime-main.js.map": "/ronan.tech/static/js/runtime-main.eb90fd9e.js.map",
+    "static/css/2.1174974c.chunk.css": "/ronan.tech/static/css/2.1174974c.chunk.css",
+    "static/js/2.6767e0bf.chunk.js": "/ronan.tech/static/js/2.6767e0bf.chunk.js",
+    "static/js/2.6767e0bf.chunk.js.map": "/ronan.tech/static/js/2.6767e0bf.chunk.js.map",
+    "index.html": "/ronan.tech/index.html",
+    "precache-manifest.2f0a783a8cc21cfd17ccb2d2a355ae29.js": "/ronan.tech/precache-manifest.2f0a783a8cc21cfd17ccb2d2a355ae29.js",
+    "service-worker.js": "/ronan.tech/service-worker.js",
+    "static/css/2.1174974c.chunk.css.map": "/ronan.tech/static/css/2.1174974c.chunk.css.map",
+    "static/css/main.7005e704.chunk.css.map": "/ronan.tech/static/css/main.7005e704.chunk.css.map",
+    "static/js/2.6767e0bf.chunk.js.LICENSE.txt": "/ronan.tech/static/js/2.6767e0bf.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/ronan.tech/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.640acb5c.js",
-    "static/css/2.5f1adba5.chunk.css",
+    "static/js/runtime-main.eb90fd9e.js",
+    "static/css/2.1174974c.chunk.css",
     "static/js/2.6767e0bf.chunk.js",
     "static/css/main.7005e704.chunk.css",
-    "static/js/main.e106b6a2.chunk.js"
+    "static/js/main.ca1c7f4a.chunk.js"
   ]
 }
