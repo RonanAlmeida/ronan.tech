@@ -2,7 +2,7 @@
   "name": "ronan-almeida-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://RonanAlmeida.github.io/ronan.tech",
+  "homepage": "http://ronan.tech",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
